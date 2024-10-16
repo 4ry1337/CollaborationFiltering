@@ -1,7 +1,13 @@
-# Recommendation System for MicroLens dataset
+# Recommendation System for MovieLens dataset
 
-Use the following download command to download the files
-into the ./dataset directory, here is an example:
+## Install
+
+```sh
+wget https://files.grouplens.org/datasets/movielens/ml-100k.zip ./dataset
 ```
-wget -r -np -nH --cut-dirs=3 https://recsys.westlake.edu.cn/MicroLens-50k-Dataset/ -P ./dataset
+
+unzip folder manually or if you have unzip cmd tool:
+
+```
+unzip ./dataset/ml-100k.zip -d ./dataset
 ```
